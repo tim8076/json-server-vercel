@@ -1,11 +1,45 @@
-{"users": [
-    
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$d608J3LMfyvNOP3e2hKIA.syINuW52o0rJ2HH1kvNwWdIr.Xx33C.",
+      "nickname": "偉杰",
+      "id": 1,
+      "role": ["user", "admin"]
+    },
+    {
+      "email": "olivier12@mail.com",
+      "password": "$2a$10$F2IeYDrAvrNotIXiIYAJr.SuO1xsG0ksX860SgUirOgvTV/iLfvQe",
+      "nickname": "偉杰",
+      "id": 2
+    },
+    {
+      "email": "olivier66662@mail.com",
+      "password": "$2a$10$1kLRoaOSVvUtZK41T9sTCuXbpMuq/vaeIK9wHR22MezvXyJj9IQ.e",
+      "nickname": "偉杰",
+      "id": 3
+    },
+    {
+      "email": "olivier123@mail.com",
+      "password": "$2a$10$cTlEjN13W.saNEgXpMNCjOWWMScPkalVVXvDx6LlC5.8QWXoLVXzy",
+      "nickname": "奧莉",
+      "id": 4
+    }
   ],
   "posts": [
-    { "id": 1, "title": "json-server0915", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    {
+      "content": "今天要刷牙",
+      "id": 1
+    },
+    {
+      "content": "今天要洗臉",
+      "userId": 4,
+      "id": 2
+    },
+    {
+      "content": "今天要洗臉",
+      "userId": "4",
+      "id": 3
+    }
+  ]
 }
