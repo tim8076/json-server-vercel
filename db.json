@@ -1,45 +1,89 @@
 {
   "users": [
     {
-      "email": "olivier@mail.com",
-      "password": "$2a$10$d608J3LMfyvNOP3e2hKIA.syINuW52o0rJ2HH1kvNwWdIr.Xx33C.",
-      "nickname": "偉杰",
-      "id": 1,
-      "role": ["user", "admin"]
-    },
-    {
-      "email": "olivier12@mail.com",
-      "password": "$2a$10$F2IeYDrAvrNotIXiIYAJr.SuO1xsG0ksX860SgUirOgvTV/iLfvQe",
-      "nickname": "偉杰",
-      "id": 2
-    },
-    {
-      "email": "olivier66662@mail.com",
-      "password": "$2a$10$1kLRoaOSVvUtZK41T9sTCuXbpMuq/vaeIK9wHR22MezvXyJj9IQ.e",
-      "nickname": "偉杰",
-      "id": 3
-    },
-    {
-      "email": "olivier123@mail.com",
-      "password": "$2a$10$cTlEjN13W.saNEgXpMNCjOWWMScPkalVVXvDx6LlC5.8QWXoLVXzy",
-      "nickname": "奧莉",
-      "id": 4
+      "email": "Lisa@gmail.com",
+      "password": "$2a$10$MiAVXwfbrf1ZDCXGPiIN0uoioS2FuE1ZkDOD0Mn8XlCgEs/C96urC",
+      "userName": "Lisa",
+      "role": [
+        "user"
+      ],
+      "id": 1
     }
   ],
-  "posts": [
+  "products": [
     {
-      "content": "今天要刷牙",
+      "title": "[賣]動物園造型衣服4",
+      "category": "衣服",
+      "origin_price": 100,
+      "price": 300,
+      "unit": "個",
+      "description": "Sit down please 名設計師設計",
+      "content": "這是內容",
+      "is_enabled": 1,
+      "imageUrl": "主圖網址",
+      "imagesUrl": [
+        "圖片網址一",
+        "圖片網址二",
+        "圖片網址三",
+        "圖片網址四",
+        "圖片網址五"
+      ],
       "id": 1
-    },
+    }
+  ],
+  "coupons": [
     {
-      "content": "今天要洗臉",
-      "userId": 4,
-      "id": 2
-    },
+      "title": "超級特惠價格3",
+      "is_enabled": 1,
+      "percent": 70,
+      "due_date": "2025-01-01",
+      "code": "testCode",
+      "id": 1
+    }
+  ],
+  "articles": [
     {
-      "content": "今天要洗臉",
-      "userId": "4",
-      "id": 3
+      "title": "新增第一篇文章2",
+      "description": "文章內容2",
+      "image": "test.testtest",
+      "tag": [
+        "tag1"
+      ],
+      "create_at": "2024-12-07",
+      "author": "alice",
+      "isPublic": false,
+      "content": "這是內容",
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "create_at": "2024-12-14",
+      "is_paid": false,
+      "message": "這是留言2",
+      "products": [
+        {
+          "productId": 1,
+          "productPrice": 500,
+          "qty": "3"
+        }
+      ],
+      "total": 1500,
+      "info": {
+        "address": "kaohsiung",
+        "email": "test@gmail.com",
+        "name": "test",
+        "tel": "0912346768"
+      },
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "favorites": [
+    {
+      "productId": "1",
+      "userId": "1",
+      "id": 1
     }
   ]
 }
