@@ -2,7 +2,7 @@
   "users": [
     {
       "email": "Lisa@gmail.com",
-      "password": "$2a$10$MiAVXwfbrf1ZDCXGPiIN0uoioS2FuE1ZkDOD0Mn8XlCgEs/C96urC",
+      "password": "$2a$10$QyTzz1p6E/mgUtq.mGwRDOS0lFnAQQzEa.EY5THE.aM67QePH/5uW",
       "userName": "Lisa",
       "role": [
         "user"
@@ -12,7 +12,7 @@
   ],
   "products": [
     {
-      "title": "[賣]動物園造型衣服4",
+      "title": "[賣]動物園造型衣服3",
       "category": "衣服",
       "origin_price": 100,
       "price": 300,
@@ -35,7 +35,7 @@
     {
       "title": "超級特惠價格3",
       "is_enabled": 1,
-      "percent": 70,
+      "percent": 50,
       "due_date": "2025-01-01",
       "code": "testCode",
       "id": 1
@@ -43,7 +43,7 @@
   ],
   "articles": [
     {
-      "title": "新增第一篇文章2",
+      "title": "文章修改後",
       "description": "文章內容2",
       "image": "test.testtest",
       "tag": [
@@ -60,7 +60,7 @@
     {
       "create_at": "2024-12-14",
       "is_paid": false,
-      "message": "這是留言2",
+      "message": "這是留言333",
       "products": [
         {
           "productId": 1,
@@ -82,8 +82,16 @@
   "favorites": [
     {
       "productId": "1",
-      "userId": "1",
+      "userId": "3",
       "id": 1
+    }
+  ],
+  "carts": [
+    {
+      "productId": "1",
+      "qty": 66,
+      "userId": "3",
+      "id": 2
     }
   ]
 }

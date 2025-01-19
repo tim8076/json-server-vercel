@@ -73,9 +73,75 @@ function getProduct() {
 
 // 收藏商品
 function addFavorite() {
-  axios.post('http://localhost:3000/600/users/6/favorites', {
+  axios.post('http://localhost:3000/600/users/3/favorites', {
     "productId": "1",
   }, {
+    headers: {
+      "authorization": `Bearer ${token}`,
+    }
+  })
+  .then((res) => {
+    console.log(res.data);
+  })
+  .catch(err => {
+    console.log('錯誤資訊', err.response)
+  })
+}
+
+// 加入購物車
+function addCart() {
+  axios.post('http://localhost:3000/600/users/1/carts', {
+    "productId": "1",
+    "qty": 1,
+  }, {
+    headers: {
+      "authorization": `Bearer ${token}`,
+    }
+  })
+  .then((res) => {
+    console.log(res.data);
+  })
+  .catch(err => {
+    console.log('錯誤資訊', err.response)
+  })
+}
+
+// 取得購物車列表
+function getCartLists() {
+  axios.get('http://localhost:3000/600/users/3/carts?_expand=product', {
+    headers: {
+      "authorization": `Bearer ${token}`,
+    }
+  })
+  .then((res) => {
+    console.log(res.data);
+  })
+  .catch(err => {
+    console.log('錯誤資訊', err.response)
+  })
+}
+
+// 修改單一購物車
+function modifyCart() {
+  axios.patch('http://localhost:3000/600/carts/2', {
+    "productId": "1",
+    "qty": 66
+   } , {
+    headers: {
+      "authorization": `Bearer ${token}`,
+    }
+  })
+  .then((res) => {
+    console.log(res.data);
+  })
+  .catch(err => {
+    console.log('錯誤資訊', err.response)
+  })
+}
+
+// 刪除單一購物車
+function deleteCart() {
+  axios.delete('http://localhost:3000/600/carts/1', {
     headers: {
       "authorization": `Bearer ${token}`,
     }

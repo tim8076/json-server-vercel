@@ -33,7 +33,7 @@ function login() {
 
 // 修改密碼
 function updatePassword() {
-  axios.patch('http://localhost:3000/600/users/5', {
+  axios.patch('http://localhost:3000/users/1', {
     "password": "123456",
   }, {
     headers: {
