@@ -2,7 +2,7 @@
   "users": [
     {
       "email": "Lisa@gmail.com",
-      "password": "$2a$10$QyTzz1p6E/mgUtq.mGwRDOS0lFnAQQzEa.EY5THE.aM67QePH/5uW",
+      "password": "$2a$10$N0sF/gHZCPZdHzNaZjzfDuVHpKYqW.WubDhZWEmY3V3h8pkU14r6S",
       "userName": "Lisa",
       "role": [
         "user"
@@ -12,23 +12,20 @@
   ],
   "products": [
     {
-      "title": "[賣]動物園造型衣服3",
-      "category": "衣服",
-      "origin_price": 100,
-      "price": 300,
+      "title": "莓好時光",
+      "category": "蛋糕",
+      "origin_price": 480,
+      "price": 400,
       "unit": "個",
-      "description": "Sit down please 名設計師設計",
-      "content": "這是內容",
+      "description": "酸甜的草莓與多種莓果調和，彷彿置身春日花園",
+      "content": "採用當季草莓與藍莓製成，層層堆疊於鬆軟的蛋糕體上，覆蓋香甜奶霜，帶來清新與幸福的滋味。提供 6 吋尺寸",
       "is_enabled": 1,
-      "imageUrl": "主圖網址",
+      "stock":2,
+      "imageUrl": "https://images.unsplash.com/photo-1592382419305-140c7ac8932a?w=800",
       "imagesUrl": [
-        "圖片網址一",
-        "圖片網址二",
-        "圖片網址三",
-        "圖片網址四",
-        "圖片網址五"
-      ],
-      "id": 1
+      "https://images.unsplash.com/photo-1592382419341-a1ef0ddd7c8b?w=800",
+      "https://images.unsplash.com/photo-1503485838016-53579610c389?w=800"
+      ]
     }
   ],
   "coupons": [
@@ -41,9 +38,10 @@
       "id": 1
     }
   ],
-  "articles": [
+  "news": [
     {
       "title": "文章修改後",
+      "subtitle": "副標題",
       "description": "文章內容2",
       "image": "test.testtest",
       "tag": [
@@ -82,16 +80,16 @@
   "favorites": [
     {
       "productId": "1",
-      "userId": "3",
+      "userId": "1",
       "id": 1
     }
   ],
   "carts": [
     {
       "productId": "1",
-      "qty": 66,
-      "userId": "3",
-      "id": 2
+      "qty": 4,
+      "userId": "1",
+      "id": 1
     }
   ]
 }
