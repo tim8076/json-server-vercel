@@ -11,22 +11,6 @@
     }
   ],
   "products": [
-    {
-      "title": "莓好時光",
-      "category": "蛋糕",
-      "origin_price": 480,
-      "price": 400,
-      "unit": "個",
-      "description": "酸甜的草莓與多種莓果調和，彷彿置身春日花園",
-      "content": "採用當季草莓與藍莓製成，層層堆疊於鬆軟的蛋糕體上，覆蓋香甜奶霜，帶來清新與幸福的滋味。提供 6 吋尺寸",
-      "is_enabled": 1,
-      "stock":2,
-      "imageUrl": "https://images.unsplash.com/photo-1592382419305-140c7ac8932a?w=800",
-      "imagesUrl": [
-      "https://images.unsplash.com/photo-1592382419341-a1ef0ddd7c8b?w=800",
-      "https://images.unsplash.com/photo-1503485838016-53579610c389?w=800"
-      ]
-    }
   ],
   "coupons": [
     {
