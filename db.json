@@ -1,5 +1,24 @@
 {
   "users": [
+    {
+      "email": "Shin@gmail.com",
+      "password": "$2a$10$lz5WxhF.XuLSC64bAw3xKOAfLS2cw7JQBxHw4Q2J73CNynZgUkP42",
+      "userName": "Shin",
+      "role": [
+        "user"
+      ],
+      "id": 1
+    },
+    {
+      "email": "Jack@gmail.com",
+      "password": "$2a$10$zCNx0CGQZGKpD5c9aff9zuFVO9Rv.h2L5N9iAbSx/p1TLieUKkChW",
+      "name": "Jack",
+      "terms": true,
+      "role": [
+        "admin"
+      ],
+      "id": 2
+    }
   ],
   "products": [
     {
@@ -12,11 +31,11 @@
       "description": "酸甜的草莓與多種莓果調和，彷彿置身春日花園",
       "content": "採用當季草莓與藍莓製成，層層堆疊於鬆軟的蛋糕體上，覆蓋香甜奶霜，帶來清新與幸福的滋味。提供 6 吋尺寸",
       "is_enabled": 1,
-      "stock":2,
+      "stock": 2,
       "imageUrl": "https://images.unsplash.com/photo-1592382419305-140c7ac8932a?w=800",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1592382419341-a1ef0ddd7c8b?w=800",
-      "https://images.unsplash.com/photo-1503485838016-53579610c389?w=800"
+        "https://images.unsplash.com/photo-1592382419341-a1ef0ddd7c8b?w=800",
+        "https://images.unsplash.com/photo-1503485838016-53579610c389?w=800"
       ]
     },
     {
@@ -29,11 +48,11 @@
       "description": "蜜桃的清香與奶油交融，展現初戀般的美好滋味",
       "content": "精選新鮮蜜桃，搭配滑順奶油餡，手工派皮酥脆可口，每一口都帶來細膩甜美的感受。提供 6 吋尺寸",
       "is_enabled": 1,
-      "stock":5,
+      "stock": 5,
       "imageUrl": "https://images.unsplash.com/photo-1602683503944-af7ef3bc7369?w=800",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1602683504269-8e89ebd2a61b?w=800",
-      "https://images.unsplash.com/photo-1602683504046-cf7e90664396?w=800"
+        "https://images.unsplash.com/photo-1602683504269-8e89ebd2a61b?w=800",
+        "https://images.unsplash.com/photo-1602683504046-cf7e90664396?w=800"
       ]
     },
     {
@@ -46,11 +65,11 @@
       "description": "檸檬的清新酸爽與巧克力的濃郁巧妙融合",
       "content": "新鮮檸檬的微酸蛋糕體，搭配濃郁的黑巧克力醬，酸甜平衡，層次豐富。提供 6 吋尺寸",
       "is_enabled": 1,
-      "stock":4,
+      "stock": 4,
       "imageUrl": "https://plus.unsplash.com/premium_photo-1709901922284-67eb36dae7d1?w=800",
       "imagesUrl": [
-      "https://plus.unsplash.com/premium_photo-1709901922298-0a3eb89b7e79?w=800",
-      "https://plus.unsplash.com/premium_photo-1709901916584-3587bfc9de1c?w=800"
+        "https://plus.unsplash.com/premium_photo-1709901922298-0a3eb89b7e79?w=800",
+        "https://plus.unsplash.com/premium_photo-1709901916584-3587bfc9de1c?w=800"
       ]
     },
     {
@@ -63,11 +82,11 @@
       "description": "酸甜平衡的檸檬塔，帶來輕盈愉悅的味蕾體驗",
       "content": "手工塔皮酥脆，內層填入濃縮檸檬醬與奶油餡，酸甜交融，清爽宜人。提供 6 吋尺寸",
       "is_enabled": 1,
-      "stock":6,
+      "stock": 6,
       "imageUrl": "https://images.unsplash.com/photo-1668175582163-b629225fea3f?w=800",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1668175582602-eaf6706e0ba7?w=800",
-      "https://images.unsplash.com/photo-1668175582279-6c04d15c49ef?w=800"
+        "https://images.unsplash.com/photo-1668175582602-eaf6706e0ba7?w=800",
+        "https://images.unsplash.com/photo-1668175582279-6c04d15c49ef?w=800"
       ]
     },
     {
@@ -80,13 +99,13 @@
       "description": "微苦抹茶與柔和奶霜的搭配，散發自然茶香",
       "content": "使用京都宇治抹茶粉，搭配綿密蛋糕體與清新奶霜，茶香濃郁，回味無窮。提供 6 吋尺寸",
       "is_enabled": 1,
-      "stock":3,
+      "stock": 3,
       "imageUrl": "https://plus.unsplash.com/premium_photo-1695123861830-f53335412fb0?w=800",
       "imagesUrl": [
-      "https://plus.unsplash.com/premium_photo-1695123861120-4f643bfe2fbc?w=800",
-      "https://plus.unsplash.com/premium_photo-1695123861476-fecb7a0076dc?w=800"
+        "https://plus.unsplash.com/premium_photo-1695123861120-4f643bfe2fbc?w=800",
+        "https://plus.unsplash.com/premium_photo-1695123861476-fecb7a0076dc?w=800"
       ]
-    }, 
+    },
     {
       "id": 6,
       "title": "杏仁微光",
@@ -97,11 +116,11 @@
       "description": "香脆杏仁點綴奶香餅乾，為下午茶增添暖意",
       "content": "精選香濃奶油與脆口杏仁片製成，每片餅乾都帶有濃厚堅果香氣與層次豐富的口感。每盒包含 12 片",
       "is_enabled": 1,
-      "stock":2,
+      "stock": 2,
       "imageUrl": "https://images.unsplash.com/photo-1593759608179-014a7dec4e7f?w=800",
       "imagesUrl": [
-      "https://plus.unsplash.com/premium_photo-1666259307227-d2f7e8fa3e97?w=800",
-      "https://plus.unsplash.com/premium_photo-1725384940601-af597d124a45?w=800"
+        "https://plus.unsplash.com/premium_photo-1666259307227-d2f7e8fa3e97?w=800",
+        "https://plus.unsplash.com/premium_photo-1725384940601-af597d124a45?w=800"
       ]
     },
     {
@@ -114,11 +133,11 @@
       "description": "繽紛馬卡龍系列，每口都是色彩與味道的驚喜",
       "content": "手工製作的法式馬卡龍，提供香草、抹茶、巧克力、覆盆子等五種風味，外酥內柔，甜度適中。每盒提供 6 顆",
       "is_enabled": 1,
-      "stock":12,
+      "stock": 12,
       "imageUrl": "https://plus.unsplash.com/premium_photo-1672986896021-cf725eba8ba3?w=800",
       "imagesUrl": [
-      "https://plus.unsplash.com/premium_photo-1672849450603-7de968a1901b?w=800",
-      "https://plus.unsplash.com/premium_photo-1672921437282-6df091a84610?w=800"
+        "https://plus.unsplash.com/premium_photo-1672849450603-7de968a1901b?w=800",
+        "https://plus.unsplash.com/premium_photo-1672921437282-6df091a84610?w=800"
       ]
     },
     {
@@ -131,11 +150,11 @@
       "description": "香濃焦糖與巧克力慕斯的成熟口感，令人著迷",
       "content": "內層是巧克力慕斯夾雜榛果碎粒，外層覆滿濃郁焦糖醬，甜中帶苦，層次豐富。提供 6 吋尺寸",
       "is_enabled": 1,
-      "stock":8,
+      "stock": 8,
       "imageUrl": "https://plus.unsplash.com/premium_photo-1673138254186-4a848022f37f?w=800",
       "imagesUrl": [
-      "https://plus.unsplash.com/premium_photo-1673138254250-a66ba99319b0?w=800",
-      "https://plus.unsplash.com/premium_photo-1673138254120-d55ad6e5e2ed?w=800"
+        "https://plus.unsplash.com/premium_photo-1673138254250-a66ba99319b0?w=800",
+        "https://plus.unsplash.com/premium_photo-1673138254120-d55ad6e5e2ed?w=800"
       ]
     },
     {
@@ -148,11 +167,11 @@
       "description": "濃厚奶酪與酥脆派皮的絕妙結合，帶來迷人風味",
       "content": "進口奶酪滑順細膩，搭配手工派皮的酥脆口感，甜美且富有層次。提供 6 吋尺寸",
       "is_enabled": 1,
-      "stock":10,
+      "stock": 10,
       "imageUrl": "https://images.unsplash.com/photo-1567171466295-4afa63d45416?w=800",
       "imagesUrl": [
-      "https://plus.unsplash.com/premium_photo-1689247407848-f133d61f49f3?w=800",
-      "https://images.unsplash.com/photo-1589793052411-96aad388a622?w=800"
+        "https://plus.unsplash.com/premium_photo-1689247407848-f133d61f49f3?w=800",
+        "https://images.unsplash.com/photo-1589793052411-96aad388a622?w=800"
       ]
     },
     {
@@ -165,11 +184,11 @@
       "description": "滿滿榛果碎與濃郁黑巧克力的交融，帶來醇厚滋味",
       "content": "採用 72% 比利時黑巧克力，內含榛果碎粒，帶來濃郁可可香氣與脆口口感。提供單顆包裝",
       "is_enabled": 1,
-      "stock":16,
+      "stock": 16,
       "imageUrl": "https://plus.unsplash.com/premium_photo-1673138254186-4a848022f37f?w=800",
       "imagesUrl": [
-      "https://plus.unsplash.com/premium_photo-1673138254250-a66ba99319b0?w=800",
-      "https://plus.unsplash.com/premium_photo-1673138254120-d55ad6e5e2ed?w=800"
+        "https://plus.unsplash.com/premium_photo-1673138254250-a66ba99319b0?w=800",
+        "https://plus.unsplash.com/premium_photo-1673138254120-d55ad6e5e2ed?w=800"
       ]
     },
     {
@@ -182,12 +201,12 @@
       "description": "草莓與奶油的甜美交響，營造夢幻般的幸福滋味",
       "content": "新鮮草莓層層堆疊於濕潤蛋糕體上，搭配香滑奶油，讓人每一口都沉浸於甜美樂園。提供 6 吋尺寸",
       "is_enabled": 1,
-      "stock":8,
+      "stock": 8,
       "imageUrl": "https://images.unsplash.com/photo-1641848373087-845c3ad756c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1641848373434-67a0dd5f9110?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1641848373444-311553f56142?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1641848373234-ffc8c276480c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "https://images.unsplash.com/photo-1641848373434-67a0dd5f9110?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1641848373444-311553f56142?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1641848373234-ffc8c276480c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       ]
     },
     {
@@ -200,14 +219,14 @@
       "description": "開心果的濃郁堅果香與酥脆塔皮交織，令人回味",
       "content": "使用特製開心果奶油餡，搭配酥香手工塔皮，帶來濃厚堅果香氣與細膩口感。提供 8 吋尺寸",
       "is_enabled": 1,
-      "stock":5,
+      "stock": 5,
       "imageUrl": "https://images.unsplash.com/photo-1654922207382-d555f2b8e46f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1702745284711-fc5668288afa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1702745284748-59c103941c41?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1702745284678-aeb162be1380?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "https://images.unsplash.com/photo-1702745284711-fc5668288afa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1702745284748-59c103941c41?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1702745284678-aeb162be1380?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       ]
-    }, 
+    },
     {
       "id": 13,
       "title": "蜜桃幸福派",
@@ -218,11 +237,11 @@
       "description": "蜜桃的香甜融入酥脆塔皮，帶來無比的幸福感",
       "content": "新鮮蜜桃果肉搭配滑順奶油餡，置於手工塔皮上，甜美清新，令人回味無窮。提供 6 吋尺寸",
       "is_enabled": 1,
-      "stock":9,
+      "stock": 9,
       "imageUrl": "https://images.unsplash.com/photo-1690908216550-3eaac0f31818?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1690908216545-e078249c4fd1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1518518886629-0b9000299b8b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "https://images.unsplash.com/photo-1690908216545-e078249c4fd1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1518518886629-0b9000299b8b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       ]
     },
     {
@@ -235,11 +254,11 @@
       "description": "焦糖的濃郁與海鹽的鹹香結合，甜而不膩",
       "content": "使用手工製作的焦糖布蕾，表層焦糖酥脆，內餡細膩滑順，輕灑海鹽提升風味。每盒提供 2 份",
       "is_enabled": 1,
-      "stock":5,
+      "stock": 5,
       "imageUrl": "https://images.unsplash.com/photo-1688577727939-3c065e99890b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1688577727455-916491643759?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1610611424854-5e07032143d8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "https://images.unsplash.com/photo-1688577727455-916491643759?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1610611424854-5e07032143d8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       ]
     },
     {
@@ -252,10 +271,10 @@
       "description": "抹茶的純粹香氣與蛋糕的輕盈質地，令人陶醉",
       "content": "採用日本宇治抹茶粉，搭配奶霜與鬆軟蛋糕體，展現清新與濃郁兼具的茶香。提供 6 吋尺寸",
       "is_enabled": 1,
-      "stock":4,
+      "stock": 4,
       "imageUrl": "https://images.unsplash.com/photo-1627308592814-f88b68f7b4a1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1627308592778-290a1ec030da?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "https://images.unsplash.com/photo-1627308592778-290a1ec030da?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       ]
     },
     {
@@ -268,11 +287,11 @@
       "description": "焦糖香甜與巧克力的濃厚交融，每口都是驚喜",
       "content": "使用頂級黑巧克力與香濃焦糖製成，外層微脆，內餡如熔岩般滑順濃郁。每盒提供單顆",
       "is_enabled": 1,
-      "stock":8,
+      "stock": 8,
       "imageUrl": "https://images.unsplash.com/photo-1554371650-4f50c96a52eb?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1554371650-1f19f803c220?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1676300184943-09b2a08319a3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "https://images.unsplash.com/photo-1554371650-1f19f803c220?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1676300184943-09b2a08319a3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       ]
     },
     {
@@ -285,11 +304,11 @@
       "description": "酸甜檸檬與塔皮的完美融合，帶來清爽的幸福感",
       "content": "濃縮檸檬醬填入酥脆手工塔皮，搭配細膩奶油，酸甜適中，適合夏日享用。提供 6 吋尺寸",
       "is_enabled": 1,
-      "stock":6,
+      "stock": 6,
       "imageUrl": "https://images.unsplash.com/photo-1543508834-51a9bcc28a88?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1543508185-225c92847541?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1572635148818-ef6fd45eb394?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "https://images.unsplash.com/photo-1543508185-225c92847541?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1572635148818-ef6fd45eb394?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       ]
     },
     {
@@ -302,13 +321,13 @@
       "description": "藍莓的果香與濃郁起司交融，創造美好滋味",
       "content": "採用濃厚奶酪與酸甜藍莓果醬，搭配酥香餅底，每一口都帶來層次豐富的味蕾體驗。提供 8 吋尺寸",
       "is_enabled": 1,
-      "stock":8,
+      "stock": 8,
       "imageUrl": "https://images.unsplash.com/photo-1567327613485-fbc7bf196198?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1514734373773-57d422f4f3fd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "https://images.unsplash.com/photo-1514734373773-57d422f4f3fd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       ]
-    }, 
+    },
     {
       "id": 19,
       "title": "熔岩情深",
@@ -319,11 +338,11 @@
       "description": "橙香融入巧克力熔岩，濃郁香甜令人難忘",
       "content": "使用新鮮橙皮與頂級巧克力，外層鬆軟，內餡如熔岩般濃稠，帶來獨特甜點享受。每盒提供 6 顆",
       "is_enabled": 1,
-      "stock":12,
+      "stock": 12,
       "imageUrl": "https://images.unsplash.com/photo-1511911063855-2bf39afa5b2e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1652561781059-58d5d9ffcb4d?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1512223792601-592a9809eed4?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "https://images.unsplash.com/photo-1652561781059-58d5d9ffcb4d?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1512223792601-592a9809eed4?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       ]
     },
     {
@@ -336,11 +355,11 @@
       "description": "馥郁橙香與柔軟馬德蓮的完美結合，清新動人",
       "content": "天然香橙皮搭配輕盈馬德蓮麵糊，烘焙出金黃鬆軟的質地，橙香清新撲鼻。每盒提供 6 顆",
       "is_enabled": 1,
-      "stock":16,
+      "stock": 16,
       "imageUrl": "https://images.unsplash.com/photo-1607174644416-25df985337f6?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1692071097904-b549fdc4029a?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1563822249510-04678c78df85?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "https://images.unsplash.com/photo-1692071097904-b549fdc4029a?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1563822249510-04678c78df85?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       ]
     },
     {
@@ -353,10 +372,10 @@
       "description": "藍莓的果香與濃郁起司交融，創造美好滋味",
       "content": "採用天然藍莓果乾與優質奶油，製成香脆可口的健康餅乾，無添加劑，營養豐富。每盒包含 12 片",
       "is_enabled": 1,
-      "stock":20,
+      "stock": 20,
       "imageUrl": "https://images.unsplash.com/photo-1464411335145-a52ac26409ad",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1607092683781-a3146e0a1d49"
+        "https://images.unsplash.com/photo-1607092683781-a3146e0a1d49"
       ]
     },
     {
@@ -369,10 +388,10 @@
       "description": "細膩抹茶香氣濃郁，酥脆餅乾帶來日式風味",
       "content": "使用京都宇治抹茶與高品質麵粉，製成酥脆餅乾，茶香撲鼻，甜度適中。每盒提供 24 片",
       "is_enabled": 1,
-      "stock":20,
+      "stock": 20,
       "imageUrl": "https://images.unsplash.com/photo-1722969345811-653f6da3edf0",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1542178036-c221b3856ed8"
+        "https://images.unsplash.com/photo-1542178036-c221b3856ed8"
       ]
     },
     {
@@ -380,15 +399,15 @@
       "title": "起司之戀",
       "category": "蛋糕",
       "origin_price": 380,
-      "price":360,
+      "price": 360,
       "unit": "個",
       "description": "起司的濃郁與蛋糕的綿密質地，帶來戀愛般的滋味",
       "content": "嚴選進口奶酪，搭配綿密蛋糕體，入口即化，適合搭配多種飲品享用。提供 6 吋尺寸",
       "is_enabled": 1,
-      "stock":8,
+      "stock": 8,
       "imageUrl": "https://plus.unsplash.com/premium_photo-1663840344898-50c40a9fde78",
       "imagesUrl": [
-      "https://plus.unsplash.com/premium_photo-1663840344827-ee2d5d5cafb6"
+        "https://plus.unsplash.com/premium_photo-1663840344827-ee2d5d5cafb6"
       ]
     },
     {
@@ -396,80 +415,135 @@
       "title": "巧克力之心",
       "category": "餅乾",
       "origin_price": 350,
-      "price":330,
+      "price": 330,
       "unit": "盒",
       "description": "醇厚巧克力香氣滿溢，為甜點時光增添溫暖",
       "content": "使用 72% 比利時黑巧克力，結合香酥手工餅乾，每一片都讓人回味無窮。每盒包含 12 片",
       "is_enabled": 1,
-      "stock":20,
+      "stock": 20,
       "imageUrl": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1530751127259-074b0cdc0469"
+        "https://images.unsplash.com/photo-1530751127259-074b0cdc0469"
       ]
     },
     {
       "id": 25,
       "title": "甜蜜助學計畫",
       "category": "慈善",
-      "origin_price":50,
+      "origin_price": 50,
       "price": 50,
       "unit": "次",
       "description": "「甜蜜助學計畫」旨在為需要的孩童提供營養餐，讓每份甜點傳遞溫暖。",
       "content": "捐款將專門用於提供均衡營養餐，改善孩子的健康與學習環境，讓更多生命充滿希望",
       "is_enabled": 1,
-      "stock":99,
+      "stock": 99,
       "imageUrl": "https://plus.unsplash.com/premium_photo-1676501714806-4e6cfde1b0c8?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1544773088-d142e38f5793?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "https://images.unsplash.com/photo-1544773088-d142e38f5793?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       ]
     },
     {
       "id": 26,
       "title": "幸福愛寵行動",
       "category": "慈善",
-      "origin_price":250,
+      "origin_price": 250,
       "price": 250,
       "unit": "次",
       "description": "支援流浪動物的幸福行動，為牠們捐助健康罐頭。",
       "content": "每份捐款都將用於購買健康罐頭，支持流浪動物的基本需求，讓牠們感受到人類的善意",
       "is_enabled": 1,
-      "stock":99,
+      "stock": 99,
       "imageUrl": "https://images.unsplash.com/photo-1602979677071-1781b7f40023?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1560743641-3914f2c45636?q=80&w=1851&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1591324535489-9c78376631dc?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1547623542-de3ff5941ddb?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1580612528350-bcea7d0c6849?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "https://images.unsplash.com/photo-1560743641-3914f2c45636?q=80&w=1851&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1591324535489-9c78376631dc?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1547623542-de3ff5941ddb?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1580612528350-bcea7d0c6849?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       ]
     },
     {
       "id": 27,
       "title": "綠色希望專案",
       "category": "慈善",
-      "origin_price":500,
+      "origin_price": 500,
       "price": 500,
       "unit": "次",
       "description": "「綠色希望專案」致力於推動環保與永續發展，守護地球資源。",
       "content": "您的支持將用於植樹造林、減塑行動及其他環保計畫，讓地球更健康。",
       "is_enabled": 1,
-      "stock":2,
+      "stock": 2,
       "imageUrl": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?q=80&w=2666&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imagesUrl": [
-      "https://images.unsplash.com/photo-1494825514961-674db1ac2700?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://plus.unsplash.com/premium_photo-1681140560624-dc6ad807f7bc?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://plus.unsplash.com/premium_photo-1678836261225-db196f9846da?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://plus.unsplash.com/premium_photo-1678836048282-56b30771bfe9?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "https://images.unsplash.com/photo-1494825514961-674db1ac2700?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1681140560624-dc6ad807f7bc?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1678836261225-db196f9846da?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1678836048282-56b30771bfe9?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       ]
     }
   ],
   "coupons": [
+    {
+      "title": "新春優惠券",
+      "is_enabled": 1,
+      "percent": 80,
+      "due_date": "2025-02-28",
+      "code": "new-year",
+      "id": 1
+    },
+    {
+      "title": "75折折價券",
+      "is_enabled": 1,
+      "percent": 75,
+      "due_date": "2025-05-31",
+      "code": "75-discount",
+      "id": 2
+    }
   ],
   "news": [
+    {
+      "title": "一起分享幸福，送出500份溫暖餐點",
+      "description": "您的甜點，正在改變世界。",
+      "content": "這個冬天，幸享屋要與您一起分享幸福！我們將送出500份溫暖餐點，讓愛與關懷傳遞到每個角落。每一份餐點，都是我們用心準備的溫暖，期望為有需要的人帶來一絲安心與微笑。邀請您一起響應，讓這份幸福持續擴散。每一次光臨與支持，都是對我們最大的鼓勵，也讓我們有更多力量回饋社會。這個冬天，讓我們攜手，用美味和愛心溫暖更多人。💛 幸享屋與您一起，分享幸福，傳遞溫暖！",
+      "image": "https://images.pexels.com/photos/1005406/pexels-photo-1005406.jpeg",
+      "tag": [
+        "甜點",
+        "慈善"
+      ],
+      "create_at": "2025-02-14",
+      "author": "Lin",
+      "isPublic": 1,
+      "id": 1
+    },
+    {
+      "title": "小甜點，大愛心，為毛孩帶來滿滿能量！",
+      "description": "和幸享屋一起，讓流浪毛孩不再挨餓！",
+      "content": "幸享屋不只為您帶來美味，更用心為毛孩們付出！我們推出「小甜點，大愛心」活動，將每月銷售的小甜點部分收益，捐助給流浪動物收容中心，為毛孩們提供食物與醫療資源。每一份甜點，都是愛的傳遞，讓毛孩們感受到滿滿能量與希望。邀請您一起支持，讓每一口甜點都充滿愛心與溫暖。💛 幸享屋與您攜手，讓愛不止於餐桌，溫暖每一個小生命！",
+      "image": "https://images.unsplash.com/photo-1553714824-bea8f0dda108?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tag": [
+        "甜點",
+        "寵物"
+      ],
+      "create_at": "2025-02-14",
+      "author": "Tom",
+      "isPublic": 1,
+      "id": 2
+    },
+    {
+      "title": "甜點與地球同行，種下100棵新希望！",
+      "description": "甜點與綠意同行，我們和地球都感謝您！",
+      "content": "幸享屋與您一起守護地球，讓甜點也能為環境盡一份心力！我們發起「甜點與地球同行」計畫，承諾每售出100份甜點，將捐助種植1棵樹，目標種下100棵新希望，為地球增添一抹綠意。每一口甜點，都是對環境的支持，讓我們攜手減少碳足跡，守護未來。邀請您一同參與，讓愛與甜點不僅溫暖人心，更滋養這片土地。🌱 幸享屋與您一起，讓甜點為地球帶來無限可能！",
+      "image": "https://images.unsplash.com/photo-1457530378978-8bac673b8062?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tag": [
+        "甜點",
+        "環保"
+      ],
+      "create_at": "2025-02-14",
+      "author": "Joy",
+      "isPublic": 1,
+      "id": 3
+    }
   ],
-  "orders": [
-  ],
-  "favorites": [
-  ],
-  "carts": [
-  ]
+  "orders": [],
+  "favorites": [],
+  "carts": []
 }
