@@ -571,43 +571,6 @@
     }
   ],
   "orders": [
-    {
-      "userId": "1",
-      "recentItems": [
-        {
-          "productId": 1,
-          "qty": 2,
-          "price": 400,
-          "isCharity": false
-        },
-        {
-          "productId": 27,
-          "qty": 1,
-          "price": 500,
-          "isCharity": true,
-          "charityContent": {
-            "id": "DNK325",
-            "price": 500,
-            "donationDate": "2025/02/20",
-            "paymentStatus": true
-          }
-        }
-      ],
-      "totalAmount": 1300,
-      "useInfo": {
-        "name": "sss",
-        "address": "ssss",
-        "tel": "ssss",
-        "email": "sss",
-        "paymentMethod": "credit-card",
-        "cardNumber": "2323 23",
-        "validDate": "04/25",
-        "CVC": "222",
-        "isPaid": true
-      },
-      "date": "2025/02/20",
-      "id": 1
-    }
   ],
   "favorites": [
     {
