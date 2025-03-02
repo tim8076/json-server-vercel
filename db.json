@@ -622,6 +622,12 @@
       "qty": 1,
       "userId": "1",
       "id": 1
+    },
+    {
+      "productId": 26,
+      "qty": 1,
+      "userId": "1",
+      "id": 2
     }
   ]
 }
